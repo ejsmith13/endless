@@ -39,6 +39,10 @@ body {
   text-align: center;
   margin-bottom: 10%;
 }
+.info_num {
+  border-bottom: 3px solid aqua;
+  margin: auto 40%;
+}
 
 .logo {
   border: 2px solid red;

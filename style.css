@@ -17,22 +17,20 @@ body {
   margin: auto 10%;
 }
 
-#main_img {
-  background-image: url("assets/photo-couch-min.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 0.2px solid;
-}
-
 .header {
   /* border: 2px solid red; */
   background-color: #111111;
   padding: 10px;
 }
-.info_box {
-  /* border: 1px solid green; */
+
+.footer {
+  color: whitesmoke;
+  background-color: #111111;
+  font-size: small;
+  text-align: center;
+  padding: 5px;
 }
+
 #info_head {
   /* border: 1px solid orange; */
   text-align: center;
@@ -54,6 +52,14 @@ body {
   height: 30px;
   filter: invert(97%) sepia(51%) saturate(5308%) hue-rotate(107deg)
     brightness(97%) contrast(107%);
+}
+#main_img {
+  background-image: url("assets/photo-couch-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border: 0.2px solid;
 }
 #pitch {
   color: whitesmoke;

@@ -1,0 +1,52 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(250, 250, 250);
+}
+.container {
+  border: 5px solid blue;
+  margin: auto 10%;
+}
+
+#main_img {
+  background-image: url("assets/photo-couch.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 2px solid red;
+}
+
+.header {
+  border: 2px solid red;
+  background-color: rgb(47, 79, 79);
+  height: 3rem;
+  width: 100%;
+}
+.info_box {
+  border: 1px solid green;
+  width: 24%;
+  margin: auto;
+  display: inline-block;
+}
+#info_head {
+  border: 1px solid orange;
+  text-align: center;
+}
+
+#info_list {
+  border: 3px solid orchid;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.logo {
+  border: 2px solid red;
+  height: 30px;
+  filter: invert(97%) sepia(51%) saturate(5308%) hue-rotate(107deg)
+    brightness(97%) contrast(107%);
+}
+#pitch {
+  color: aqua;
+  margin-top: 50%;
+}

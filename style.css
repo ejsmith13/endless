@@ -6,7 +6,7 @@ body {
   background-color: rgb(250, 250, 250);
 }
 .container {
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   margin: auto 10%;
 }
 
@@ -14,43 +14,58 @@ body {
   background-image: url("assets/photo-couch.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-  border: 2px solid red;
+  border: 2px solid;
 }
 
 .header {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: rgb(47, 79, 79);
   height: 3rem;
   width: 100%;
 }
 .info_box {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 24%;
   margin: auto;
   display: inline-block;
 }
 #info_head {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   text-align: center;
+  max-resolution: 10%;
 }
 
 #info_list {
-  border: 3px solid orchid;
+  /* border: 3px solid orchid; */
   text-align: center;
   margin-bottom: 10%;
 }
 .info_num {
   border-bottom: 3px solid aqua;
   margin: auto 40%;
+  font-size: xx-large;
 }
 
 .logo {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 30px;
   filter: invert(97%) sepia(51%) saturate(5308%) hue-rotate(107deg)
     brightness(97%) contrast(107%);
 }
 #pitch {
   color: aqua;
-  margin-top: 50%;
+  margin: 40% auto 10%;
+}
+#start_btn {
+  background-color: aqua;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+  transition-property: font-size;
+  transition-duration: 2000;
+  transition-delay: 1000;
+}
+#start_btn:hover {
+  background-color: cadetblue;
+  font-size: larger;
 }

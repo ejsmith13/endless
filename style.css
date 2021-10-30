@@ -18,7 +18,7 @@ body {
 }
 
 #main_img {
-  background-image: url("assets/photo-couch.jpg");
+  background-image: url("assets/photo-couch-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -32,9 +32,6 @@ body {
 }
 .info_box {
   /* border: 1px solid green; */
-  width: 24%;
-  margin: auto;
-  display: inline-block;
 }
 #info_head {
   /* border: 1px solid orange; */
@@ -63,13 +60,16 @@ body {
   margin: 40% auto 10%;
   font-size: medium;
 }
+#pitch_sub {
+  font-size: larger;
+}
 #pitch_title {
   font-size: xx-large;
 }
 #start_btn {
   background-color: aqua;
   border-radius: 20px;
-  width: 15%;
+
   font-weight: bold;
   font-size: medium;
   transition-property: font-size;
@@ -79,4 +79,25 @@ body {
 #start_btn:hover {
   background-color: cadetblue;
   font-size: larger;
+}
+
+/* mobile responsiveness for medium screens */
+@media screen and (min-width: 600px) {
+  .container {
+    /* border: 5px solid blue; */
+    margin: auto 5%;
+  }
+}
+/* mobile responsiveness for large screens */
+@media screen and (min-width: 992px) {
+  .container {
+    /* border: 5px solid blue; */
+    margin: auto 10%;
+  }
+  .info_box {
+    /* border: 1px solid green; */
+    width: 24%;
+    margin: auto;
+    display: inline-block;
+  }
 }

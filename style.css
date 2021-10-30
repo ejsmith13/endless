@@ -1,9 +1,16 @@
-html,
-body {
-  font-family: "Lato", sans-serif;
+html {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
   background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .container {
   /* border: 5px solid blue; */
@@ -13,15 +20,15 @@ body {
 #main_img {
   background-image: url("assets/photo-couch.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
-  border: 2px solid;
+  background-size: cover;
+  background-position: center;
+  border: 0.2px solid;
 }
 
 .header {
   /* border: 2px solid red; */
-  background-color: rgb(47, 79, 79);
-  height: 3rem;
-  width: 100%;
+  background-color: #111111;
+  padding: 10px;
 }
 .info_box {
   /* border: 1px solid green; */
@@ -32,7 +39,6 @@ body {
 #info_head {
   /* border: 1px solid orange; */
   text-align: center;
-  max-resolution: 10%;
 }
 
 #info_list {
@@ -53,14 +59,19 @@ body {
     brightness(97%) contrast(107%);
 }
 #pitch {
-  color: aqua;
+  color: whitesmoke;
   margin: 40% auto 10%;
+  font-size: medium;
+}
+#pitch_title {
+  font-size: xx-large;
 }
 #start_btn {
   background-color: aqua;
   border-radius: 20px;
+  width: 15%;
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
   transition-property: font-size;
   transition-duration: 2000;
   transition-delay: 1000;

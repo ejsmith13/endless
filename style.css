@@ -6,14 +6,14 @@ html {
 }
 body {
   font-family: "Lato", sans-serif;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 .btn {
-  background-color: aqua;
+  background-color: #0ff;
   border-radius: 20px;
   font-weight: bold;
   font-size: medium;
@@ -23,23 +23,21 @@ body {
 }
 /* action when cursor is over button */
 .btn:hover {
-  color: whitesmoke;
-  background-color: cadetblue;
+  color: #f5f5f5;
+  background-color: #5f9ea0;
   font-size: larger;
 }
 .container {
-  /* border: 5px solid blue; */
   margin: auto 10%;
 }
 
 .header {
-  /* border: 2px solid red; */
   background-color: #111111;
   padding: 10px;
 }
 
 .footer {
-  color: whitesmoke;
+  color: #f5f5f5;
   background-color: #111111;
   font-size: small;
   text-align: center;
@@ -53,22 +51,19 @@ body {
 }
 
 #info_list {
-  /* border: 3px solid orchid; */
   text-align: center;
-
   /* taking bullets off of li elements */
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .info_num {
-  border-bottom: 3px solid aqua;
+  border-bottom: 3px solid #0ff;
   margin: auto 40%;
   font-size: xx-large;
 }
 
 .logo {
-  /* border: 2px solid red; */
   height: 30px;
   filter: invert(97%) sepia(51%) saturate(5308%) hue-rotate(107deg)
     brightness(97%) contrast(107%);
@@ -95,12 +90,13 @@ body {
 }
 
 .modal_info {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #111111;
+  opacity: 90%;
   border-radius: 10px;
   font-size: xx-large;
   margin: auto;
   padding: 5px;
-  border: 2px solid whitesmoke;
+  border: 2px solid #f5f5f5;
   height: 90%;
 }
 .modal_btns {
@@ -110,7 +106,7 @@ body {
 }
 
 #pitch {
-  color: whitesmoke;
+  color: #f5f5f5;
   margin: 40% auto 10%;
   font-size: medium;
 }
@@ -124,18 +120,15 @@ body {
 /* mobile responsiveness for medium screens */
 @media screen and (min-width: 600px) {
   .container {
-    /* border: 5px solid blue; */
     margin: auto 5%;
   }
 }
 /* mobile responsiveness for large screens */
 @media screen and (min-width: 992px) {
   .container {
-    /* border: 5px solid blue; */
     margin: auto 10%;
   }
   .info_box {
-    /* border: 1px solid green; */
     width: 24%;
     margin: auto;
     display: inline-block;

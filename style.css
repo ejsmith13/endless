@@ -12,6 +12,21 @@ body {
   margin: 0;
   padding: 0;
 }
+.btn {
+  background-color: aqua;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: medium;
+  transition-property: font-size;
+  transition-duration: 2000;
+  transition-delay: 1000;
+}
+/* action when cursor is over button */
+.btn:hover {
+  color: whitesmoke;
+  background-color: cadetblue;
+  font-size: larger;
+}
 .container {
   /* border: 5px solid blue; */
   margin: auto 10%;
@@ -28,6 +43,7 @@ body {
   background-color: #111111;
   font-size: small;
   text-align: center;
+  margin-top: 10%;
   padding: 5px;
 }
 
@@ -39,7 +55,11 @@ body {
 #info_list {
   /* border: 3px solid orchid; */
   text-align: center;
-  margin-bottom: 10%;
+
+  /* taking bullets off of li elements */
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .info_num {
   border-bottom: 3px solid aqua;
@@ -61,6 +81,34 @@ body {
   background-attachment: fixed;
   border: 0.2px solid;
 }
+/* Modal pop up*/
+#modal {
+  display: none;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 20%;
+  margin-left: -30%;
+  width: 60%;
+  height: 40%;
+}
+
+.modal_info {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  font-size: xx-large;
+  margin: auto;
+  padding: 5px;
+  border: 2px solid whitesmoke;
+  height: 90%;
+}
+.modal_btns {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+
 #pitch {
   color: whitesmoke;
   margin: 40% auto 10%;
@@ -71,20 +119,6 @@ body {
 }
 #pitch_title {
   font-size: xx-large;
-}
-#start_btn {
-  background-color: aqua;
-  border-radius: 20px;
-
-  font-weight: bold;
-  font-size: medium;
-  transition-property: font-size;
-  transition-duration: 2000;
-  transition-delay: 1000;
-}
-#start_btn:hover {
-  background-color: cadetblue;
-  font-size: larger;
 }
 
 /* mobile responsiveness for medium screens */

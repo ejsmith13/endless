@@ -35,49 +35,63 @@
             You'll get new stuff on your doorstep - every month.
           </p>
 
-          <button id="start_btn">GET STARTED</button>
+          <button class="btn" id="start_btn">GET STARTED</button>
+
+          <!-- Modal for button -->
+          <div id="modal">
+            <section class="modal_info">
+              <p>
+                Click the button below to be taken to the Github Repo for this
+                project
+              </p>
+              <div class="modal_btns">
+                <button class="btn" id="repo_btn">Github Repo</button>
+                <button class="btn" id="close_btn">Close</button>
+              </div>
+            </section>
+          </div>
         </section>
       </main>
     </section>
     <!-- info section -->
-    <article class="container">
+    <section class="container">
       <h2 id="info_head">How it works</h2>
-      <section id="info_list">
-        <section class="info_box">
+      <ul id="info_list">
+        <li class="info_box">
           <h2 class="info_num">01</h2>
           <h5>FILL OUT A PROFILE</h5>
           <p>
-            We only want you to get games and gear that youll love, so we'll ask
-            for your preferences up front.
+            We only want you to get games and gear that you'll love, so we'll
+            ask for your preferences up front.
           </p>
-        </section>
+        </li>
 
-        <section class="info_box">
+        <li class="info_box">
           <h2 class="info_num">02</h2>
-          <h5>REQUEST A DEVERY</h5>
+          <h5>REQUEST A DELIVERY</h5>
           <p>
-            Once you're ready for you first delivery, all it takes is a click to
-            get your shipment on the way.
+            Once you're ready for your first delivery, all it takes is a click
+            to get your shipment on the way.
           </p>
-        </section>
-        <section class="info_box">
-          <h2 class="info_num">05</h2>
+        </li>
+        <li class="info_box">
+          <h2 class="info_num">03</h2>
           <h5>KEEP WHAT YOU WANT</h5>
           <p>
             Tell us "no thanks" by returning any unwanted products in the
             enclosed packaging.
           </p>
-        </section>
-        <section class="info_box">
+        </li>
+        <li class="info_box">
           <h2 class="info_num">04</h2>
           <h5>REQUEST ANOTHER DELIVERY</h5>
           <p>
             Get your next gaming fix by updating your profile then initiating
             your next shipment.
           </p>
-        </section>
-      </section>
-    </article>
+        </li>
+      </ul>
+    </section>
     <footer class="footer">
       <p>All Rights Reserved by Ethan J. Smith 2021</p>
     </footer>
